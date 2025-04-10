@@ -74,7 +74,7 @@ jobs:
         with:
           registry: ghcr.io
           username: AlexToader10             # GitHub username (actor triggering the workflow)
-          password: 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     # Automatically provided GitHub token
+          password: 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     # Automatically provided GitHub token
 
       # Step 4: Build the Docker image and tag it with the repository name and 'latest'
       - name: Build Docker image
