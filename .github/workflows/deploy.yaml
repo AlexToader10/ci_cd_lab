@@ -21,7 +21,7 @@ jobs:
         run: go mod download
       
       - name: Run tests
-        run: go main_test.go
+        run: go test
     # TODO 01 - Add a step to run tests
 
     # TODO 02 - Make sure that this job is run before `compile`
